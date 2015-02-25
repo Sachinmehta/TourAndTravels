@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>/home.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>signup</servlet-name>
+    <servlet-class>serve.Signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signup</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>signin</servlet-name>
+    <servlet-class>p1.Signin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signin</servlet-name>
+    <url-pattern>/Log</url-pattern>
+  </servlet-mapping>
+</web-app>
